@@ -1,0 +1,35 @@
+{
+"args":[
+	{"propLiterals":"wikiReliable,wikiOpenSubjectError",
+	"arg":"wikiReliable|wikiOpenSubjectError",
+	"audienceAssumptions":"wikiOpenSubjectError",
+	"weight":"0.8",
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"wikiReliable,britReliable,wiki==brit",
+	"arg":"wikiReliable|britReliable,wiki==brit",
+	"audienceAssumptions":"britReliable",
+	"weight":"0.3",
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"wikiOpenSubjectError,wikiWrittenNonExp",
+	"arg":"wikiOpenSubjectError|wikiWrittenNonExp",
+	"audienceAssumptions":"wikiWrittenNonExp",
+	"weight":"0.8",
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"wikiOpenSubjectError,wikiEntryUnreliable,editorCheck",
+	"arg":"wikiOpenSubjectError|wikiEntryUnreliable&editorCheck",
+	"audienceAssumptions":"wikiEntryUnreliable",
+	"weight":"0.8",
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"wikiOpenSubjectError,anyoneInsert",
+	"arg":"wikiOpenSubjectError|anyoneInsert",
+	"audienceAssumptions":"anyoneInsert",
+	"weight":"0.8",
+	"proofStandard":"scintilla"
+	}
+	]
+}
+

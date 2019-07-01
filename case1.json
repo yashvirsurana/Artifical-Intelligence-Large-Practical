@@ -1,0 +1,35 @@
+{
+"args":[
+	{"propLiterals":"fraud,lawyer,-lawyer",
+	"arg":"fraud|lawyer,-lawyer",
+	"audienceAssumptions":"lawyer",
+	"weight":"0.4",
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"lawyer,wentToLawSchool",
+	"arg":"lawyer|wentToLawSchool",
+	"audienceAssumptions":"wentToLawSchool",
+	"weight":"0.4",
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"lawyer,-wentToLawSchool",
+	"arg":"lawyer|-wentToLawSchool",
+	"audienceAssumptions":"",
+	"weight":"0.4",
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"lawyer,hackedInToTheBar",
+	"arg":"lawyer|hackedInToTheBar",
+	"audienceAssumptions":"",
+	"weight":"0.4",
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"lawyer,passedTheBar",
+	"arg":"lawyer|passedTheBar",
+	"audienceAssumptions":"passedTheBar",
+	"weight":"0.4",
+	"proofStandard":"beyond_reasonable_doubt"
+	}
+	]
+}
+

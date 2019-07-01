@@ -1,0 +1,41 @@
+{
+"args":[
+	{"propLiterals":"bankRob,fingerprints,caughtOnCamera,noMissingMoney",
+	"arg":"bankRob|fingerprints,caughtOnCamera&noMissingMoney",
+	"audienceAssumptions":"",
+	"weight":"0.9",//.6
+	"proofStandard":"preponderance"
+	},
+	{"propLiterals":"-noMissingMoney,cashier,unreliable1",
+	"arg":"-noMissingMoney|cashier&unreliable1",
+	"audienceAssumptions":"cashier",
+	"weight":"0.3",
+	"proofStandard":"preponderance"
+	},
+	{"propLiterals":"caughtOnCamera,securityTape,cameraOff",
+	"arg":"caughtOnCamera|securityTape&cameraOff",
+	"audienceAssumptions":"securityTape",
+	"weight":"0.5",//.5
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"noMissingMoney,vaultInspector,unreliable2",
+	"arg":"noMissingMoney|vaultInspector&unreliable2",
+	"audienceAssumptions":"vaultInspector",
+	"weight":"0.9",
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"fingerprints,analyse,notFound",
+	"arg":"fingerprints|analyse&notFound",
+	"audienceAssumptions":"analyse",
+	"weight":"0.7",//.7
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"unreliable2,bribe,-bribe",
+	"arg":"unreliable2|bribe&-bribe",
+	"audienceAssumptions":"bribe",
+	"weight":"0.7",//.7
+	"proofStandard":"scintilla"
+	}
+	]
+}
+

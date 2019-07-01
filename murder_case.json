@@ -1,0 +1,23 @@
+{
+"args":[
+	{"propLiterals":"murder,intent,kill",
+	"arg":"murder|intent,kill",
+	"audienceAssumptions":"kill", //COMMENT
+	"weight":"0.8", /* more comments added */
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"intent,witness1,unreliable1",
+	"arg":"intent|witness1&unreliable1",
+	"audienceAssumptions":"witness1",
+	"weight":"0.8",
+	"proofStandard":"scintilla"
+	},
+	{"propLiterals":"intent,witness2,unreliable2",
+	"arg":"-intent|witness2&unreliable2",
+	"audienceAssumptions":"witness2",
+	"weight":"0.3",
+	"proofStandard":"scintilla"
+	}
+	]
+}
+

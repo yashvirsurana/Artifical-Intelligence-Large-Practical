@@ -1,0 +1,35 @@
+{
+"args":[
+	{"propLiterals":"stoleCash,neededMoney-neededMoney,noMotive",
+	"arg":"stoleCash|neededMoney,-neededMoney,noMotive",
+	"audienceAssumptions":"neededMoney,stoleCash",
+	"weight":"0.8",
+	"proofStandard":"beyond_reasonable_doubt"
+	},
+	{"propLiterals":"stoleCash,-neededMoney",
+	"arg":"stoleCash|-neededMoney",
+	"audienceAssumptions":"-neededMoney",
+	"weight":"0.8",
+	"proofStandard":"clear_and_convincing"
+	},
+	{"propLiterals":"neededMoney,cancer,-cancer",
+	"arg":"", // NOTE NO ARG - must return valueError
+	"audienceAssumptions":"cancer",
+	"weight":"0.5",
+	"proofStandard":"clear_and_convincing"
+	},
+	{"propLiterals":"neededMoney,witness1,unreliable1",
+	"arg":"neededMoney|witness1&unreliable1",
+	"audienceAssumptions":"witness1",
+	"weight":"0.8",
+	"proofStandard":"clear_and_convincing"
+	},
+	{"propLiterals":"noMotive,witness2,unreliable2",
+	"arg":"noMotive|witness2&unreliable2",
+	"audienceAssumptions":"unreliable2",
+	"weight":"0.9",
+	"proofStandard":"clear_and_convincing"
+	}
+	]
+}
+
